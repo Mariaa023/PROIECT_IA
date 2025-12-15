@@ -19,6 +19,6 @@ def fitness_meniu(individ):
 
 limite_meniu=[
     (50,250),
-    (100,400)
+    (100,400),
     (30,120)
   ]
