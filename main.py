@@ -20,7 +20,7 @@ def afiseaza_ora(ora_reala):
     minute=int((ora_reala-ora)*60)
 
     if minute<0:
-        minue=0
+        minute=0
     if minute>=60:
         minute=59
     return f"{ora:02d}:{minute:02d}"
