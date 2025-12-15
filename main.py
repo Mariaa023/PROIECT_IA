@@ -73,5 +73,6 @@ def ruleaza_problema_meniu():
 if __name__=="__main__":
     ruleaza_problema_somn()
     testeaza_somn_manual()
-    testeaza_meniu_manual()
     ruleaza_problema_meniu()
+    testeaza_meniu_manual()
+
