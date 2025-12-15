@@ -1,4 +1,4 @@
-from algoritm.evolutie_difentiala import evolutie_diferentiala
+from algoritm.evolutie_diferentiala import evolutie_diferentiala
 from probleme.problema_meniu import fitness_meniu,limite_meniu
 from probleme.problema_somn import fitness_somn,limite_somn
 
@@ -59,7 +59,7 @@ def testeaza_meniu_manual():
     print("Fitness(penalizare):",fitness)
     print()
 
-def ruleaza_problema_meniu()
+def ruleaza_problema_meniu():
     solutie,fitness=evolutie_diferentiala(fitness_meniu,limite_meniu)
 
     print("PROBLEMA MENIU")
@@ -69,7 +69,8 @@ def ruleaza_problema_meniu()
     print("Fitness:",fitness)
     print()
 
- if__name__=="__main__":
+
+if __name__=="__main__":
     ruleaza_problema_somn()
     testeaza_somn_manual()
     testeaza_meniu_manual()
